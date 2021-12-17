@@ -15,6 +15,12 @@ Finally the last function called is summarize_data, responsible for calculating 
 
 To run this script, open a R window and set the working directory to point at the folder for the course project data. Then, type source("run_analysis.R"). All functions will run and the script will generate the file "tidy_data.txt", also submitted in this repository.
 
+To see load the tidy_data.txt file in R, type:
+td <- read.table("tidy_data.txt", header=TRUE)
+
+Then, the file can be checked with:
+View(td)
+
 ### project_function.R
 
 This file contains the required functions for the project.
